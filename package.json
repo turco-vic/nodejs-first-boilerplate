@@ -1,0 +1,16 @@
+{
+  "name": "nodejs.boilerplate",
+  "version": "1.0.0",
+  "description": "Projeto modelo para as aulas de Back-End com Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "teste, SENAI, Back-End"
+  },
+  "author": "Enzo Turcovic",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
