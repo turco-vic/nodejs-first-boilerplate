@@ -3,11 +3,23 @@
   "version": "1.0.0",
   "description": "Projeto modelo para as aulas de Back-End com Node.js",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "teste, SENAI, Back-End"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turco-vic/nodejs-first-boilerplate.git"
+  },
+  "keywords": [
+     "Senai",
+     "Back-End",
+     "Node.js"
+  ],
   "author": "Enzo Turcovic",
   "license": "MIT",
+  "homepage": "https://github.com/turco-vic/nodejs-first-boilerplate.git#readme",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
